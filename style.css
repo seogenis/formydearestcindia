@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #fff; /* Blank background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.center-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.button-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add any additional styling you want for the buttons */
+button#yesButton {
+    background-color: #90ee90; /* Light green */
+}
+
+button#noButton {
+    background-color: #ffcccb; /* Light red */
+}
