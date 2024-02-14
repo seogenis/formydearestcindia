@@ -1,5 +1,5 @@
 document.getElementById('yesButton').addEventListener('click', function() {
-    alert('💖');
+    alert('YAYYY!!!💖\nThank you for being an amazing friend and taking care of me. When I was bored, hungry, or lost, my first instinct was to find you. \nYou\'ve been my home.');
 });
 
 const noButton = document.getElementById('noButton');
